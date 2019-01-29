@@ -6,9 +6,9 @@ global variables
 
 Artist="Bob Marley"                  #This is the singer name
 Title="No Woman No Cry"              #This is the Song name
-Album="Raga Music" 
+Album="Raga Music"                   #this is the Album name
 var1=True
-var2=False                  #this is the Album name
+var2=False                  
 
 def GetArtistName(name):
     return name
