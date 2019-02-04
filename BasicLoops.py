@@ -15,7 +15,7 @@ for i in range(1,101):
                 Func1(i)
                 break
         else:
-            print(i,"-This is a primenumber:")
+            print(i,"-Prime")
     else:
         print(i)  
 
