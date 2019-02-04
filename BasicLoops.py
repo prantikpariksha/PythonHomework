@@ -1,12 +1,18 @@
+list1=[]
+
 def Func1(i):
+    
         if (i%3==0 and i%5==0):
-            print("FizzBuzz")
+            i="FizzBuzz"
+            list1.append(i)
         elif (i%3==0):
-            print("Fizz")
+            i="Fizz"
+            list1.append(i)
         elif (i%5==0):
-            print("Buzz")
+            i="Buzz"
+            list1.append(i)
         else:
-            print(i)
+            list1.append(i)
             
 for i in range(1,101):
     if(i>1):
@@ -15,7 +21,12 @@ for i in range(1,101):
                 Func1(i)
                 break
         else:
-            print(i,"-Prime")
+            i="Prime"
+            list1.append(i)
     else:
-        print(i)  
+        list1.append(i)
+        
+print(list1)
+        
+        
 
